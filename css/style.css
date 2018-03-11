@@ -70,10 +70,8 @@ ul {
   transition: margin 0.5s ease; }
 
 .header-nav-list {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   margin-right: 110px; }
 
 .header-nav {
@@ -187,10 +185,8 @@ ul {
 .page-title {
   margin: 0;
   margin-bottom: 110px;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700; }
@@ -213,20 +209,14 @@ ul {
 
 .programs-list {
   margin-bottom: 120px;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center; }
+  justify-content: center;
+  align-items: center; }
 
 .programs-item-container {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center; }
+  justify-content: center;
+  align-items: center; }
   .programs-item-container:first-child {
     margin-right: 30px; }
 
@@ -234,13 +224,9 @@ ul {
   margin-right: 30px;
   width: 270px;
   height: 580px;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   background-color: #ff1b22; }
   .programs-item:last-child {
     margin-right: 0; }
@@ -263,15 +249,12 @@ ul {
     .programs-item:hover span {
       margin-bottom: 30px; }
   .programs-item:hover .programs-item-btn {
-    display: -webkit-box;
     display: flex; }
 
 .programs-item-btn {
   display: none;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 70px;
   height: 50px;
   background-color: transparent;
@@ -318,15 +301,11 @@ ul {
   font-size: 12px; }
 
 .coaches-item-social-list {
-  display: -webkit-box;
   display: flex; }
   .coaches-item-social-list li {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -339,30 +318,22 @@ ul {
       border-color: #d6d6d6; }
 
 .coaches-list {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 .coaches-item-container {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-align: center;
-          align-items: center; }
+  flex-direction: column;
+  align-items: center; }
   .coaches-item-container:first-child {
-    margin-right: 30px; }
+    margin-right: 20px; }
 
 .coaches-item {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding: 8px;
   width: 570px;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   background-color: #fff; }
   .coaches-item img {
     width: 180px;
@@ -376,10 +347,8 @@ ul {
             transform: scale(1.1); }
 
 .video {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 120px; }
   .video iframe {
     width: 60%;
@@ -399,12 +368,9 @@ ul {
   margin-bottom: 80px; }
 
 .posts-btn {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   width: 70px;
   height: 50px;
@@ -423,11 +389,8 @@ ul {
     border-color: #d6d6d6; }
 
 .posts-item {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   padding: 15px 8px 15px 8px;
   overflow: hidden; }
   .posts-item img {
@@ -440,10 +403,8 @@ ul {
   margin-left: 10px; }
 
 .posts-item-social-list {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   margin-right: 15px; }
 
 .testimonials-img {
@@ -488,10 +449,8 @@ ul {
   font-weight: 300; }
 
 .testimonials-img-name {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   margin-bottom: 20px;
   font-size: 12px;
   font-weight: 300; }
@@ -511,13 +470,9 @@ ul {
   overflow-x: hidden !important; }
 
 .inst-list {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-          flex-direction: row;
-  -webkit-box-pack: start;
-          justify-content: flex-start; }
+  flex-direction: row;
+  justify-content: flex-start; }
 
 .inst-item {
   position: relative;
@@ -558,10 +513,8 @@ ul {
   background-color: #30394d; }
 
 .footer-content {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 0 10px;
   color: #8c9db5;
   font-size: 13px; }
@@ -593,11 +546,8 @@ ul {
   max-width: 400px; }
 
 .footer-content-contacts-list {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-          flex-direction: row; }
+  flex-direction: row; }
   .footer-content-contacts-list .fa {
     color: #fff; }
     .footer-content-contacts-list .fa:hover {
@@ -631,11 +581,8 @@ ul {
   white-space: nowrap; }
 
 .footer-content-container-first {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-          flex-direction: row; }
+  flex-direction: row; }
 
 @media only screen and (max-width: 1200px) {
   .header-top {
@@ -658,15 +605,10 @@ ul {
     margin-bottom: 30px;
     font-size: 35px; }
   .programs-item-container {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
-    -webkit-box-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-            align-items: center; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
     .programs-item-container .programs-item:first-child {
       margin-bottom: 20px; }
     .programs-item-container:first-child {
@@ -676,13 +618,9 @@ ul {
   .programs-item {
     margin-right: 0; }
   .coaches-list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
-    -webkit-box-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-            align-items: center; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   .coaches-item-container:first-child {
     margin-right: 0;
     margin-bottom: 30px; }
@@ -730,11 +668,8 @@ ul {
   .header-nav-active {
     margin-left: 15px; }
   .header-nav-list {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column; }
+    flex-direction: column; }
   .header-nav-item {
     min-width: 100px;
     width: 0;
@@ -772,16 +707,13 @@ ul {
     .programs-item-container:first-child .programs-item {
       margin-right: 0px; }
   .programs-list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
     margin-bottom: 30px; }
   .coaches-item {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-    -webkit-box-align: center;
-            align-items: center;
+    align-items: center;
     overflow: hidden; }
     .coaches-item img {
       width: 175px;
@@ -800,10 +732,8 @@ ul {
     margin-bottom: 40px;
     padding: 40px 0; }
   .video {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-bottom: 80px; }
     .video iframe {
       width: 90%;
@@ -814,11 +744,8 @@ ul {
   .posts-list {
     margin-bottom: 40px; }
   .posts-item {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
-    -webkit-box-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     padding: 15px 8px 15px 8px;
     margin-bottom: 15px;
     overflow: hidden; }
@@ -837,17 +764,12 @@ ul {
   .footer-container {
     padding: 40px 0; }
   .footer-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column; }
+    flex-direction: column; }
     .footer-content p {
       font-size: 12px; }
   .footer-content-container-second {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row; }
+    flex-direction: row; }
   .footer-content-open {
     margin-right: 45px; }
   .footer-content-twitter,

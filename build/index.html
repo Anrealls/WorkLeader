@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width"/>
-    <title>site</title>
+    <title>Leader</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,400i,700" rel="stylesheet">
@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="libs/owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlcarousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="libs/hamburgers/hamburgers.css">
+    <link rel="stylesheet" href="libs/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="libs/preloader/fakeLoader.css">
 
-    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/style.min.css" rel="stylesheet"/>
 </head>
 <body>
+<div id="fakeLoader"></div>
 <div class="container">
     <header class="main-header">
         <div class="header-top-mask"></div>
@@ -62,21 +65,21 @@
             <h2 class="page-title programs-title">programs</h2>
             <ul class="programs-list ">
                 <div class="programs-item-container">
-                    <li class="programs-item"><img src="img/programs/program1.png"
+                    <li class="programs-item wow slideInLeft" data-wow-delay="0.3s"><img src="img/programs/program1.png"
                                                    alt="program1"><span>Basic Crossfit</span><a href="#"
                                                                                                 class="btn programs-item-btn">go<i
                             class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
-                    <li class="programs-item"><img src="img/programs/program2.png"
+                    <li class="programs-item wow slideInLeft" ><img src="img/programs/program2.png"
                                                    alt="program2"><span>personal trainıng</span><a href="#"
                                                                                                    class="btn programs-item-btn">go<i
                             class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
                 </div>
                 <div class="programs-item-container">
-                    <li class="programs-item"><img src="img/programs/program3.png"
+                    <li class="programs-item wow slideInRight"><img src="img/programs/program3.png"
                                                    alt="program3"><span>yoga classes</span><a href="#"
                                                                                               class="btn programs-item-btn">go<i
                             class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
-                    <li class="programs-item"><img src="img/programs/program4.png"
+                    <li class="programs-item wow slideInRight" data-wow-delay="0.3s"><img src="img/programs/program4.png"
                                                    alt="program4"><span>fitness studıo</span><a href="#"
                                                                                                 class="btn programs-item-btn">go<i
                             class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
@@ -86,10 +89,9 @@
         <div class="coaches">
             <div class="coaches-container">
                 <h2 class="page-title coaches-title">coaches</h2>
-
                 <div class="coaches-list">
-                    <ul class="coaches-item-container">
-                        <li class="coaches-item">
+                    <ul class="coaches-item-container ">
+                        <li class="coaches-item wow slideInLeft">
                             <img src="img/coaches/coaches1.png" alt="coaches-img">
                             <div class="coaches-item-info">
                                 <h3 class="coaches-item-name">esra cakıroglu</h3>
@@ -103,7 +105,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="coaches-item">
+                        <li class="coaches-item wow slideInLeft">
                             <img src="img/coaches/coaches2.png" alt="coaches-img">
                             <div class="coaches-item-info">
                                 <h3 class="coaches-item-name">naime suleymanoğlu</h3>
@@ -117,7 +119,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="coaches-item">
+                        <li class="coaches-item wow slideInLeft">
                             <img src="img/coaches/coaches3.png" alt="coaches-img">
                             <div class="coaches-item-info">
                                 <h3 class="coaches-item-name">hayat armagan</h3>
@@ -134,7 +136,7 @@
                     </ul>
                     <!--///////-->
                     <ul class="coaches-item-container">
-                        <li class="coaches-item">
+                        <li class="coaches-item wow slideInRight">
                             <img src="img/coaches/coaches4.png" alt="coaches-img">
                             <div class="coaches-item-info">
                                 <h3 class="coaches-item-name">vesile marangoz</h3>
@@ -148,7 +150,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="coaches-item">
+                        <li class="coaches-item wow slideInRight">
                             <img src="img/coaches/coaches5.png" alt="coaches-img">
                             <div class="coaches-item-info">
                                 <h3 class="coaches-item-name">yeter ramazan</h3>
@@ -162,7 +164,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="coaches-item">
+                        <li class="coaches-item wow slideInRight">
                             <img src="img/coaches/coaches6.png" alt="coaches-img">
                             <div class="coaches-item-info">
                                 <h3 class="coaches-item-name">nesrin pakoglu</h3>
@@ -188,7 +190,7 @@
             <h2 class="page-title coaches-title">Most Recent Fitness Posts</h2>
             <div class="coaches-list posts-list">
                 <ul class="coaches-item-container">
-                    <li class="coaches-item posts-item">
+                    <li class="coaches-item posts-item wow slideInLeft">
                         <img src="img/fitnesPost/post2.png" alt="coaches-img">
                         <div class="coaches-item-info posts-item-info">
                             <h3 class="coaches-item-name">Is Prescription Working?</h3>
@@ -203,7 +205,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="coaches-item posts-item">
+                    <li class="coaches-item posts-item  wow slideInLeft">
                         <img src="img/fitnesPost/post1.png" alt="coaches-img">
                         <div class="coaches-item-info posts-item-info">
                             <h3 class="coaches-item-name">Is Prescription Working?</h3>
@@ -220,8 +222,8 @@
                     </li>
                 </ul>
                 <!--///////-->
-                <ul class="coaches-item-container">
-                    <li class="coaches-item posts-item">
+                <ul class="coaches-item-container ">
+                    <li class="coaches-item posts-item wow slideInRight">
                         <img src="img/fitnesPost/post1.png" alt="coaches-img">
                         <div class="coaches-item-info posts-item-info">
                             <h3 class="coaches-item-name">Is Prescription Working?</h3>
@@ -236,7 +238,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="coaches-item posts-item">
+                    <li class="coaches-item posts-item wow slideInRight">
                         <img src="img/fitnesPost/post2.png" alt="coaches-img">
                         <div class="coaches-item-info posts-item-info">
                             <h3 class="coaches-item-name">Is Prescription Working?</h3>
@@ -378,8 +380,10 @@
     </footer>
 </div>
 
-<script src="libs/jQuery/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="libs/jQuery/jquery-3.2.1.js"></script>
 <script src="libs/owlcarousel/dist/owl.carousel.min.js"></script>
+<script src="libs/preloader/fakeLoader.min.js"></script>
+<script src="libs/wow/dist/wow.min.js"></script>
 
 <script src="js/javascript.js" type="text/javascript"></script>
 </body>

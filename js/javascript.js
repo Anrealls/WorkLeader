@@ -47,6 +47,9 @@ $('.slider-three').owlCarousel({
         0:{
             items:1
         },
+        576:{
+            items:2
+        },
         768:{
             items:3
         },
@@ -55,17 +58,6 @@ $('.slider-three').owlCarousel({
         }
     }
 });
-
-
-
-
-
-
-
-
-
-
-
 
 function headerClick() {
     var toggle = document.querySelector('.header-btn');
@@ -81,15 +73,15 @@ function headerClick() {
 headerClick();
 
 
-// new WOW().init();
-//
-// $("#fakeLoader").fakeLoader({
-//     timeToHide: 3000, //Time in milliseconds for fakeLoader disappear
-//     zIndex: 999, // Default zIndex
-//     // spinner: "spinner4",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-//     bgColor: "#fff", //Hex, RGB or RGBA colors
-//     imagePath: "../img/logo.png"
-//
-// });
-//
-//
+
+
+new WOW().init();
+
+$("#fakeLoader").fakeLoader({
+    timeToHide: 1500, //Time in milliseconds for fakeLoader disappear
+    zIndex: 999, // Default zIndex
+    spinner: "spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+    bgColor: "#000000" //Hex, RGB or RGBA colors
+});
+
+
