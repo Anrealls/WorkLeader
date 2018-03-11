@@ -80,19 +80,19 @@ ul {
   transition: margin 0.5s ease;
   opacity: 0; }
 
-.header-nav-item {
+.header-nav-item a {
   position: relative; }
-  .header-nav-item::before {
+  .header-nav-item a::before {
     content: "";
     position: absolute;
     top: 25px;
     left: 0;
     height: 1px;
-    min-width: 0px;
+    width: 0px;
     background-color: #d6d6d6; }
-  .header-nav-item:hover::before {
+  .header-nav-item a:hover::before {
     transition: all 0.5s ease;
-    min-width: 140px; }
+    width: 100%; }
 
 .header-nav-active {
   margin-top: 0;
