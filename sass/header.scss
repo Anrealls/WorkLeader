@@ -52,7 +52,7 @@
   transition: margin 0.5s ease;
   opacity: 0;
 }
-.header-nav-item {
+.header-nav-item a {
   position: relative;
   &::before {
     content: "";
@@ -60,13 +60,13 @@
     top: 25px;
     left: 0;
     height: 1px;
-    min-width: 0px;
+    width: 0px;
     background-color: #d6d6d6;
   }
   &:hover {
     &::before {
       transition: all 0.5s ease;
-      min-width: 140px;
+      width: 100%;
     }
   }
 }
