@@ -1,0 +1,103 @@
+
+.page-title {
+  margin: 0;
+  margin-bottom: 110px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  &::before {
+    content: '';
+    position: relative;
+    top: 25px;
+    left: -15px;
+    width: 10px;
+    height: 1px;
+    border-bottom: 2px #000 solid;
+  }
+  &::after {
+    content: '';
+    position: relative;
+    top: 25px;
+    right: -15px;
+    width: 10px;
+    height: 1px;
+    border-bottom: 2px #000 solid;
+  }
+}
+.programs-list {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.programs-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:first-child {
+    margin-right: 30px;
+  }
+}
+.programs-item {
+  margin-right: 30px;
+  width: 270px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff1b22;
+  &:last-child {
+    margin-right: 0;
+  }
+  img {
+    margin-bottom: 30px;
+    height: 500px;
+    //transition: all 0.5s ease;
+  }
+  span {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  &:hover {
+    padding: 5px 5px 0 5px;
+    img {
+      transition: all 0.5s ease;
+      margin-bottom: 30px;
+      height: 400px;
+      width: 100%;
+    }
+    span {
+      margin-bottom: 30px;
+    }
+  }
+  &:hover .programs-item-btn {
+    display: flex;
+  }
+}
+.programs-item-btn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px #fff solid;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  .fa-arrow-right {
+    position: relative;
+    top: -1px;
+    margin-left: 10px;
+    font-style: normal;
+  }
+  &:hover {
+    color: #d6d6d6;
+    border-color: #d6d6d6;
+  }
+}

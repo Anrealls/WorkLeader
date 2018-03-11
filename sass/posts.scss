@@ -1,0 +1,56 @@
+.posts {
+  width: 100%;
+  margin-bottom: 110px;
+  padding: 90px 0;
+  background: #f81a21 url("../img/coaches/background-red.jpg") no-repeat;
+  background-size: cover;
+}
+.coaches-title {
+  text-align: center;
+}
+.posts-list {
+  margin-bottom: 80px;
+}
+.posts-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px #fff solid;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  .fa-arrow-right {
+    position: relative;
+    top: -1px;
+    margin-left: 10px;
+    font-style: normal;
+  }
+  &:hover {
+    color: #d6d6d6;
+    border-color: #d6d6d6;
+  }
+}
+.posts-item {
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 8px 15px 8px;
+  overflow: hidden;
+  img {
+    margin: 0;
+    height: 300px;
+    width: 550px;
+  }
+}
+.posts-item-info {
+  width: 100%;
+  margin-left: 10px;
+}
+.posts-item-social-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}

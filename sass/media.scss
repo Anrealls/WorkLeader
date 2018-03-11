@@ -1,0 +1,294 @@
+@media only screen and (max-width: 1200px) {
+  .header-top {
+    padding: 40px 0px;
+  }
+  .header-btn {
+    right: 45px;
+  }
+  .logo {
+    left: 45px;
+  }
+  .header-nav-list {
+    margin-right: 50px;
+  }
+  .header-nav-item {
+    padding-right: 20px;
+  }
+  .header-info {
+    p {
+      margin-bottom: 65px;
+      font-size: 16px;
+    }
+  }
+
+  .header-info-logo {
+    margin-bottom: 20px;
+    font-size: 70px;
+  }
+
+  .header-info-title {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+  .programs-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .programs-item {
+      &:first-child {
+        margin-bottom: 20px;
+      }
+    }
+    &:first-child {
+      margin-right: 0px;
+      .programs-item {
+        margin-right: 30px;
+      }
+    }
+  }
+  .programs-item {
+    margin-right: 0;
+  }
+
+  .coaches-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .coaches-item-container:first-child {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .testimonials-info-container {
+    width: 85%;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+  .header-btn {
+    right: 30px;
+  }
+  .logo {
+    left: 30px;
+  }
+  .header-nav-item {
+    padding-right: 15px;
+  }
+  .header-nav-list {
+    margin-right: 10px;
+  }
+  .header-info {
+    left: 15%;
+  }
+  .video {
+    iframe {
+      width: 65%;
+      height: 400px;
+    }
+  }
+  .inst-item {
+    height: 350px;
+  }
+
+
+}
+
+@media only screen and (max-width: 880px) {
+  .header-top-mask {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 0px;
+    z-index: 2;
+    opacity: 0;
+    transition: width 0.5s ease;
+  }
+  .header-top-mask-active {
+    width: 300px;
+    opacity: 1;
+    transition: width 0.5s ease;
+  }
+
+  .logo {
+    left: 30px;
+  }
+  .is-active {
+    top: 36px;
+    left: 250px;
+  }
+  .header-nav {
+    top: 50px;
+    margin-left: -300px;
+  }
+  .header-nav-active {
+    margin-left: 15px;
+  }
+  .header-nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-nav-item {
+    min-width: 100px;
+    width: 0;
+    margin-bottom: 15px;
+  }
+
+
+  .testimonials-img {
+    padding-left: 150px;
+  }
+  .testimonials-info-container {
+    width: 100%;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .header-info {
+    left: 10%;
+  }
+  .testimonials-img {
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header-info {
+    left: 5%;
+  }
+  .page-title {
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  .main-header {
+    margin-bottom: 30px;
+  }
+  .header-info-logo {
+    margin-bottom: 20px;
+    font-size: 55px;
+  }
+
+  .header-info-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  .programs-item-container {
+    .programs-item {
+      &:first-child {
+        margin-bottom: 20px;
+      }
+    }
+    &:first-child {
+      margin-bottom: 20px;
+      margin-right: 0px;
+      .programs-item {
+        margin-right: 0px;
+      }
+    }
+  }
+  .programs-list {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .coaches-item {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    overflow: hidden;
+    img {
+      width: 175px;
+      height: 175px;
+      margin-right: 25px;
+    }
+    &:hover img{
+      transform: scale(1.2);
+    }
+  }
+  .coaches-item-name {
+    margin: 0;
+  }
+  .coaches-item-info {
+    span {
+      margin: 0;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+  .coaches-container {
+    margin-bottom: 40px;
+    padding: 40px 0;
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    iframe {
+      width: 90%;
+      height: 350px;
+    }
+  }
+  .posts {
+    margin-bottom: 40px;
+    padding: 40px 0;
+  }
+  .posts-list {
+    margin-bottom: 40px;
+  }
+  .posts-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 8px 15px 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    img {
+      margin: 0;
+      margin-bottom: 20px;
+      height: 200px;
+      width: 300px;
+    }
+  }
+  .testimonials-img {
+    padding-left: 0px;
+    left: -30px;
+  }
+  .testimonials-info {
+    padding: 40px 10px 40px 10px;
+  }
+  .testimonials-info-container {
+    margin-bottom: 80px;
+  }
+  .footer-container {
+    padding: 40px 0;
+  }
+  .footer-content {
+    flex-direction: column;
+    p {
+      font-size: 12px;
+    }
+  }
+  .footer-content-container-second {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-content-open {
+    margin-right: 45px;
+  }
+  .footer-content-twitter,
+  .footer-content-leader {
+    margin-right: 15px;
+  }
+  .footer-title {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+}

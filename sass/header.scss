@@ -1,0 +1,182 @@
+.main-header {
+  margin-bottom: 100px;
+}
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  font-family: "Engagement", sans-serif;
+  letter-spacing: 5px;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+  cursor: default;
+}
+
+.header-top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.header-top-mask {
+  position: absolute;
+  top: 0;
+  margin-top: -100px;
+  left: 0;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  transition: margin 0.5s ease;
+}
+
+.header-top-mask-active {
+  margin-top: 0;
+  transition: margin 0.5s ease;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 110px;
+}
+
+.header-nav {
+  position: relative;
+  margin-top: -100px;
+  transition: margin 0.5s ease;
+  opacity: 0;
+}
+
+.header-nav-active {
+  margin-top: 0;
+  opacity: 1;
+  transition: margin 0.5s ease;
+}
+
+.owl-carousel .item {
+  height: 100vh;
+  width: 100%;
+  background: #6c757d no-repeat;
+  background-size: cover;
+  background-position: center;
+  &-1 {
+    background-image: url("../img/headerSlider/slider1.jpg");
+  }
+  &-2 {
+    background-image: url("../img/headerSlider/slider2.jpg");
+
+  }
+  &-3 {
+    background-image: url("../img/headerSlider/slider3.jpg");
+
+  }
+  &-4 {
+    background-image: url("../img/headerSlider/slider4.jpg");
+
+  }
+  &-5 {
+    background-image: url("../img/headerSlider/slider5.jpg");
+
+  }
+}
+
+.header-nav-item {
+  padding-right: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  z-index: 2;
+  a {
+    color: #fff;
+    &:hover {
+      color: #d6d6d6;
+    }
+  }
+}
+
+.header-nav-item:last-child {
+  padding-right: 60px;
+}
+
+.header-btn {
+  position: absolute;
+  top: 37px;
+  right: 80px;
+  z-index: 2;
+  background-color: transparent;
+}
+
+.hamburger {
+  padding: 0;
+}
+
+.hamburger-box {
+  width: 25px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.header-info {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  z-index: 1;
+  color: #fff;
+  p {
+    margin: 0;
+    margin-bottom: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #efefef;
+  }
+}
+
+.header-info-logo {
+  margin: 0;
+  margin-bottom: 35px;
+  font-family: "Engagement", sans-serif;
+  font-size: 80px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.header-info-title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.header-info-btn {
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px #fff solid;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  .fa-arrow-right {
+    position: relative;
+    top: -1px;
+    margin-left: 20px;
+    font-style: normal;
+  }
+  &:hover {
+    color: #d6d6d6;
+    border-color: #d6d6d6;
+  }
+}
