@@ -47,7 +47,7 @@ $('.slider-three').owlCarousel({
         0:{
             items:1
         },
-        576:{
+        400:{
             items:2
         },
         768:{

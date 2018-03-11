@@ -52,7 +52,24 @@
   transition: margin 0.5s ease;
   opacity: 0;
 }
-
+.header-nav-item {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    height: 1px;
+    min-width: 0px;
+    background-color: #d6d6d6;
+  }
+  &:hover {
+    &::before {
+      transition: all 0.5s ease;
+      min-width: 140px;
+    }
+  }
+}
 .header-nav-active {
   margin-top: 0;
   opacity: 1;

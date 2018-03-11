@@ -80,6 +80,20 @@ ul {
   transition: margin 0.5s ease;
   opacity: 0; }
 
+.header-nav-item {
+  position: relative; }
+  .header-nav-item::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    height: 1px;
+    min-width: 0px;
+    background-color: #d6d6d6; }
+  .header-nav-item:hover::before {
+    transition: all 0.5s ease;
+    min-width: 140px; }
+
 .header-nav-active {
   margin-top: 0;
   opacity: 1;
@@ -221,35 +235,46 @@ ul {
     margin-right: 30px; }
 
 .programs-item {
+  position: relative;
   margin-right: 30px;
   width: 270px;
   height: 580px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ff1b22; }
+  background-color: #ff1b22;
+  overflow: hidden; }
   .programs-item:last-child {
     margin-right: 0; }
   .programs-item img {
     margin-bottom: 30px;
-    height: 500px; }
+    height: 500px;
+    transition: all 0.5s ease; }
   .programs-item span {
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 400; }
-  .programs-item:hover {
-    padding: 5px 5px 0 5px; }
-    .programs-item:hover img {
-      transition: all 0.5s ease;
-      margin-bottom: 30px;
-      height: 400px;
-      width: 100%; }
-    .programs-item:hover span {
-      margin-bottom: 30px; }
-  .programs-item:hover .programs-item-btn {
+    font-weight: 400;
+    margin-bottom: 30px; }
+  .programs-item:hover .programs-item-content {
+    top: 400px; }
+  .programs-item .programs-item-btn {
     display: flex; }
+
+.programs-item-content {
+  position: absolute;
+  top: 500px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  width: 100%;
+  height: 400px;
+  background-color: #ff1b22;
+  z-index: 99;
+  transition: all 0.5s ease; }
 
 .programs-item-btn {
   display: none;
@@ -664,7 +689,8 @@ ul {
     left: 250px; }
   .header-nav {
     top: 50px;
-    margin-left: -300px; }
+    margin-left: -300px;
+    margin-top: 0; }
   .header-nav-active {
     margin-left: 15px; }
   .header-nav-list {
@@ -687,7 +713,10 @@ ul {
 
 @media only screen and (max-width: 576px) {
   .header-info {
+    top: 43%;
     left: 5%; }
+    .header-info p {
+      margin-bottom: 40px; }
   .page-title {
     margin-bottom: 25px;
     font-size: 25px; }
@@ -695,7 +724,7 @@ ul {
     margin-bottom: 30px; }
   .header-info-logo {
     margin-bottom: 20px;
-    font-size: 55px; }
+    font-size: 45px; }
   .header-info-title {
     margin-bottom: 30px;
     font-size: 30px; }
